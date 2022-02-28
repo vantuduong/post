@@ -1,0 +1,30 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.bg-danger {
+    background-color: darkred;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.subtitle {
+    font-size: 12px;
+    display: flex;
+    color: gray;
+}
+
+.title-column {
+    width: 400px;
+}
+
+.action {
+    min-width: 326px;
+}
+
+.py-3 {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
